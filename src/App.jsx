@@ -274,7 +274,7 @@ ${resultInfo.plain}
       </nav>
 
       <section id="home" className="cover-screen">
-        <img className="cover-image" src="/cover.png" alt="深海人格测试封面" />
+        <img className="cover-image" src={`${import.meta.env.BASE_URL}cover.png`} alt="深海人格测试封面" />
         <div className="cover-bottom-actions">
           <a className="btn primary" href="#quiz">
             开始测试 <ChevronDown size={18} />

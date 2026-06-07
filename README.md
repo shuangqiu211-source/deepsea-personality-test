@@ -1,6 +1,18 @@
 # 深海人格测试
 
-这是 GitHub Pages 可部署版本。
+这是 GitHub Pages 可部署版本。封面图片已经放在：
+
+```text
+public/cover.png
+```
+
+代码里使用了 GitHub Pages 兼容路径：
+
+```jsx
+src={`${import.meta.env.BASE_URL}cover.png`}
+```
+
+所以部署到 GitHub Pages 后，封面图也可以正常显示。
 
 ## 上传方式
 
